@@ -11,4 +11,6 @@ puts "----------"
 
 # Your code goes here ...
 
+@Store0 = Store.where(name: "Gastown")
 @store7 = Store.create(name:"Galo")
+@store7.save!
